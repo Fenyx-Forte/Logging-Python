@@ -1,5 +1,6 @@
 # Text files in root folder
 /*.txt
+!requirements.txt
 
 # Environments
 .env

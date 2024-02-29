@@ -1,5 +1,3 @@
-import logging
+import logging.config
 
-logging.basicConfig(format="%(asctime)s | %(levelname)s : %(message)s")
-
-logging.error("An error occurred!")
+logging.config.fileConfig(fname="logs/config.ini", disable_existing_loggers=False)
